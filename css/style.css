@@ -1,0 +1,93 @@
+    @font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;}
+
+        @font-face {
+    font-family: 'Pretendard-Black';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: bold;}
+
+
+
+
+
+
+html{overflow: hidden; margin: 0; font-family:'Pretendard-Regular'; line-height: 1.3; text-align: left;}
+
+h1{font-family: "MuseoModerno", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal; font-size: 8rem;}
+
+.background-black { background-color:black; color:white; text-align: center; padding: 10px; margin-top: 20px;}
+
+  h2{font-family: "MuseoModerno", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+font-size: 2rem; line-height: 1.5; margin: 0;}
+
+  h3{font-family: "MuseoModerno", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+font-size: 1.5rem; line-height: 1.5;}
+
+  h4{font-family: "MuseoModerno", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+font-size: 1.2rem; margin: 0;}
+
+bold {font-weight: 700;}
+
+p {font-size: 1.2rem;}
+p2 {font-family: "Pretendard-Black"; font-size: 2rem;}
+
+
+
+summary {list-style: none; margin: 0; text-align: center;}
+summary::-webkit-details-marker {display: none;}
+
+details {width: 100px; max-height: 100px; transition: width 0.5s ease-out; }
+details[open] {width: 250px; max-height: 600px;}
+
+
+wrap {display: block; margin: auto; width: 90vw; height:90vw; }
+
+@keyframes variable-font {
+    from{font-weight: 100;} 
+    to{font-weight: 900;}}
+
+.variable-font{animation: variable-font 2.5s linear infinite alternate;}
+
+.flex{display: flex; flex-wrap: wrap; gap: 100px; padding-top: 150px;}
+.flex-mini{display: flex; flex-wrap: wrap; gap: 3%;}
+.fixed {position: fixed; top: 80px; right: 100px;}
+.fixed2 {position: fixed; bottom: 30px; left: 50px;}
+
+.text {padding: 0px 30px 20px 30px;}
+
+.icon {padding: 20px;}
+.botton {padding-top: 10px;}
+
+.window {overflow: hidden; overflow-y:auto; border-radius: 10px; border: 2px solid black; background: white; 
+    transition: height 1s ease-out, z-index 0.5s; position: relative; padding: 0px;}
+
+.window .window-header {margin: 0; background-color: black; position: sticky; top: 0; right: 0; width: auto; text-align: right;}
+.window::-webkit-scrollbar {display: none;}
+
+.in-img {width: 200px; margin: auto; margin: 20px 0px; box-shadow: 0px 5px 5px -2px lightgray;}
+
+.line {display: block; text-align: center; margin: auto;}
+
+.first {left: 324px; top: 380px; display: block; position: absolute; cursor: pointer;}
+.second{left: 400px; top: 100px; display: block; position: absolute; cursor: pointer;}
+.third{left: 200px; top: 240px; display: block; position: absolute; cursor: pointer;}
+.forth{left: 100px; top: 80px; display: block; position: absolute; cursor: pointer;}
+
+.background {background-color: #e6e6e6;}
+
+.contact-icons {position: relative; top: -10px;}
